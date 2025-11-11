@@ -7,6 +7,7 @@
     user-select: none;
 }
 
+
 /* header text*/
 .header {
     color: goldenrod;
@@ -274,7 +275,7 @@ border-radius: 0.7rem;
     border-radius: 17%;
     position: fixed;
     top: 70%;
-    right: 5%;
+    right: 0%;
     font-size: 2.5rem;
     border: none;
     font-weight: bolder;
@@ -491,3 +492,4 @@ a {
     border-radius: 0.7rem;
     display: inline;
 }
+
