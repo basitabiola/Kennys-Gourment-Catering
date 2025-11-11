@@ -81,7 +81,7 @@ transform: rotateY(180deg);
 .img-model {
     width: 90%;  
     margin-left: 25%; 
-animation: model 0.8s 1s ease-in-out both;
+animation: model 0.8s 1s ease-in-out ;
 }
 @keyframes model { 
     from {     
@@ -492,5 +492,6 @@ a {
     border-radius: 0.7rem;
     display: inline;
 }
+
 
 
