@@ -503,7 +503,7 @@ z-index: 5;
 #sticky {
    border-radius: 17%;
    position: fixed;
-   top: 74%;
+   top: 65%;
    right: 5%;
    font-size: 2.5rem; 
    border: none;
@@ -715,6 +715,7 @@ a {
     border-radius: 0.7rem;
     display: inline;
 }
+
 
 
 
