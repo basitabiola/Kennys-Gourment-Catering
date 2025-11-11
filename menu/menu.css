@@ -258,7 +258,6 @@ border-radius: 0.7rem;
     font-size: 1.2rem;
 }
 
-/* sticky button */
 /* sticky social button */
 #blurs {
     width: 100%;
@@ -268,12 +267,13 @@ border-radius: 0.7rem;
     background: rgba(255, 255, 255, 0.363);
     position: fixed;
     top: 0%;
+    z-index: 5;
 }
 
 #sticky {
     border-radius: 17%;
     position: fixed;
-    top: 74%;
+    top: 70%;
     right: 5%;
     font-size: 2.5rem;
     border: none;
@@ -292,7 +292,7 @@ border-radius: 0.7rem;
     height: 7.5vh;
     border-radius: 50%;
     position: fixed;
-    top: 72%;
+    top: 65%;
     right: 5%;
     display: block;
     background: none;
@@ -311,7 +311,7 @@ border-radius: 0.7rem;
     background-image: url('/images/facebook.jpg');
     background-size: cover;
     background-position: center;
-    top: 62%;
+    top: 55%;
     right: 25%;
     border: none;
     font-weight: bolder;
@@ -321,12 +321,12 @@ border-radius: 0.7rem;
 
 @keyframes fst {
     1% {
-        top: 75%;
+        top: 68%;
         right: 5%;
     }
 
     90% {
-        top: 61%;
+        top: 54%;
         right: 25.5%;
     }
 
@@ -338,7 +338,7 @@ border-radius: 0.7rem;
     height: 7.5vh;
     border-radius: 50%;
     position: fixed;
-    top: 72%;
+    top: 65%;
     right: 40%;
     background-image: url('/images/whatsapp.png');
     background-size: cover;
@@ -351,146 +351,49 @@ border-radius: 0.7rem;
 
 @keyframes wst {
     1% {
-        top: 72%;
+        top: 65%;
         right: 5%;
     }
 
     90% {
-        top: 72%;
-        right: 41%;
+        top: 65%;
+        right: 46%;
     }
 
     100% {}
 }
-‎/* sticky social button */
-‎#blurs { 
-‎width: 100%;
-‎height: 100vh;
-‎backdrop-filter: blur(20px);
-‎display: none;
-‎background: rgba(255, 255, 255, 0.363);
-‎position: fixed;
-‎top: 0%;
-‎z-index: 5;
-‎}
-‎#sticky {
-‎   border-radius: 17%;
-‎   position: fixed;
-‎   top: 70%;
-‎   right: 5%;
-‎   font-size: 2.5rem; 
-‎   border: none;
-‎   font-weight: bolder;
-‎   background: orange;
-‎   z-index: 5;
-‎   text-align: center;
-‎   display: block;  
-‎   z-index: 10;
-‎   padding: 1%;
-‎   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.212);
-‎}
-‎#cancel {
-‎    width: 7.5vh;
-‎    height: 7.5vh;
-‎    border-radius: 50%;
-‎    position: fixed;
-‎    top: 65%;
-‎    right: 5%;
-‎    display: block;
-‎    background: none;
-‎    border: none;
-‎    color: red;
-‎    font-size: 1.5rem;
-‎    font-weight: bolder;
-‎    z-index: 5;
-‎}
-‎#fsticky {
-‎    width: 7.5vh;
-‎    height: 7.5vh;
-‎    border-radius: 50%;
-‎    position: fixed;
-‎    background-image: url('/images/facebook.jpg');
-‎    background-size: cover;
-‎    background-position: center;
-‎    top: 55%;
-‎    right: 25%;
-‎    border: none;
-‎    font-weight: bolder;
-‎    box-shadow: 0 1px 16px rgba(0, 0, 0, 0.24);
-‎    animation: fst 0.2s ease-in ; 
-‎}
-‎@keyframes fst {  
-‎    1% {  
-‎top: 68%;
-‎right: 5%;
-‎    }
-‎  90% {
-‎    top: 54%;
-‎    right: 25.5%;
-‎ }
-‎    100% {
-‎
-‎    }
-‎}
-‎
-‎#wsticky {
-‎    width: 7.5vh;
-‎    height: 7.5vh;
-‎    border-radius: 50%;
-‎    position: fixed;  
-‎    top: 65%;
-‎    right: 45%; 
-‎    background-image: url('/images/whatsapp.png');
-‎    background-size: cover;
-‎    background-position: center;
-‎    border: none;
-‎    font-weight: bolder;
-‎    box-shadow: 0 1px 16px rgba(0, 0, 0, 0.24);
-‎    animation: wst 0.2s ease-in;
-‎    }
-‎     
-‎    @keyframes wst {
-‎        1% {
-‎            top: 65%;
-‎            right: 5%; 
-‎        }
-‎          90% {
-‎              top: 65%;
-‎              right: 46%;
-‎          }
-‎        100% {
-‎
-‎        }
-‎    }
-‎#gsticky {
-‎    width: 7.5vh;
-‎    height: 7.5vh;
-‎    border-radius: 50%;
-‎    position: fixed;
-‎    top: 73%;
-‎    right: 25%;
-‎    background-image: url('/images/call.png ');
-‎    background-size: contain;
-‎    background-repeat: no-repeat;
-‎    background-position: center;
-‎    border: none;
-‎    font-weight: bolder;
-‎    box-shadow: 0 1px 16px rgba(0, 0, 0, 0.24);
-‎    animation: gst 0.2s ease-in;
-‎    }
-‎    
-‎    @keyframes gst {
-‎        1% {
-‎            top: 65%;
-‎            right: 5%;
-‎        }
-‎          90% {
-‎              top: 73%;
-‎              right: 25.5%;
-‎          }
-‎        100% {}
-‎    }
-‎
+
+#gsticky {
+    width: 7.5vh;
+    height: 7.5vh;
+    border-radius: 50%;
+    position: fixed;
+    top: 73%;
+    right: 25%;
+    background-image: url('/images/call.png ');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    font-weight: bolder;
+    box-shadow: 0 1px 16px rgba(0, 0, 0, 0.24);
+    animation: gst 0.2s ease-in;
+}
+
+@keyframes gst {
+    1% {
+        top: 65%;
+        right: 5%;
+    }
+
+    90% {
+        top: 73%;
+        right: 25.5%;
+    }
+
+    100% {}
+}
+
 
 /* footer */
 footer {
@@ -588,4 +491,3 @@ a {
     border-radius: 0.7rem;
     display: inline;
 }
-
