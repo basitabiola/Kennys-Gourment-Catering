@@ -314,7 +314,7 @@ font-size: 1.1rem;
     margin: 2%;
     height: 4cm;
     border-radius: 0.5rem;
-    animation: ease-in gap both;
+    animation: linear gap both;
     animation-timeline: view(80% 5%); 
     background: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.349));
     background-repeat: no-repeat;
@@ -715,6 +715,7 @@ a {
     border-radius: 0.7rem;
     display: inline;
 }
+
 
 
 
