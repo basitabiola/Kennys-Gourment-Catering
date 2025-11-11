@@ -129,7 +129,6 @@ background-position: center;
         background-position: left;
     }
 }
-.ads::after {
 
 
 /* caterer model */
@@ -716,6 +715,7 @@ a {
     border-radius: 0.7rem;
     display: inline;
 }
+
 
 
 
