@@ -1,0 +1,383 @@
+
+
+*{
+    scrollbar-width: none;
+    box-sizing: border-box;
+    margin: 0%;
+    user-select: none;
+}
+
+/* navbar */
+.navbar {
+    background: rgba(255, 255, 255, 0.404);
+    backdrop-filter: blur(15px);
+    width: 90%;
+    height: 3rem;
+    position: fixed;
+    bottom: 4%;
+    left: 5%;
+    border-radius: 0.5rem;
+    z-index: 100;
+    text-align: center;
+    padding: 4%;
+    box-shadow: 0px 1px 4px rgba(19, 18, 18, 0.089);
+    animation: navbar 0.5s ease-in-out;
+    }
+    
+    @keyframes navbar {
+        from {
+            bottom: -4%;
+        }
+    
+        to {}
+    }
+
+/* navs */
+.navs {
+    color: black;
+    padding: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+    font-family: verdana;
+}
+
+.navs:hover {
+    background: orange;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bolder;
+}
+
+/* recent works container */
+.recent-cont { 
+    margin-top: 0%;
+    background: orange;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 0.5rem;
+    padding: 2%;
+    margin-bottom: 10%;
+    }
+
+/* a model image */
+.model {
+    width: 85%;
+    z-index: 3;
+    display: block;
+    margin-bottom: -4.7%;
+    margin-left: 10%;
+}
+
+/* recent works text*/
+.works {
+    color: white;
+    font-weight: bolder;
+    font-family: verdana;
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    padding-bottom: 3%;
+    animation: rec 1s ease-in-out;
+}
+@keyframes rec {
+    from {
+opacity: 0.0;
+    padding-bottom: 15%;
+    } 
+    to {
+
+    }
+}
+
+/* works container including swiping feature */
+.works-cont1,
+.works-cont2 {
+    width: 96%;
+    height: 60vw;
+    margin: auto;
+    background: none;
+    display: flex;
+    gap: 2%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    border-radius: 10px;
+    border: none;
+    scroll-behavior: smooth;
+    margin-bottom: 5%;
+}
+
+
+/* pictures inside previous works */
+.work {
+    width: 97%;
+    background: white;
+    scroll-snap-align: center;
+    box-shadow: 0px 0px 5px gray inset;
+    padding: 5px 3px;
+    flex-shrink: 0;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Catchy Quote text*/
+.quote2 {
+    color: black;
+    text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.151);
+    font-weight: bolder;
+    font-family: verdana;
+    text-align: center;
+    margin-left: 5%;
+    display: block;
+    padding-top: 8%;
+    padding-bottom: 20%;
+    font-size: 1.2rem;
+}
+
+
+/* STICKY BUTTON */
+/* sticky social button */
+#blurs {
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(20px);
+    display: none;
+    background: rgba(255, 255, 255, 0.363);
+    position: fixed;
+    top: 0%;
+}
+
+#sticky {
+    border-radius: 17%;
+    position: fixed;
+    top: 74%;
+    right: 5%;
+    font-size: 2.5rem;
+    border: none;
+    font-weight: bolder;
+    background: orange;
+    z-index: 5;
+    text-align: center;
+    display: block;
+    z-index: 10;
+    padding: 1%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.212);
+}
+
+#cancel {
+    width: 7.5vh;
+    height: 7.5vh;
+    border-radius: 50%;
+    position: fixed;
+    top: 72%;
+    right: 5%;
+    display: block;
+    background: none;
+    border: none;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    z-index: 5;
+}
+
+#fsticky {
+    width: 7.5vh;
+    height: 7.5vh;
+    border-radius: 50%;
+    position: fixed;
+    background-image: url('/images/facebook.jpg');
+    background-size: cover;
+    background-position: center;
+    top: 62%;
+    right: 25%;
+    border: none;
+    font-weight: bolder;
+    box-shadow: 0 1px 16px rgba(0, 0, 0, 0.24);
+    animation: fst 0.2s ease-in;
+}
+
+@keyframes fst {
+    1% {
+        top: 75%;
+        right: 5%;
+    }
+
+    90% {
+        top: 61%;
+        right: 25.5%;
+    }
+
+    100% {}
+}
+
+#wsticky {
+    width: 7.5vh;
+    height: 7.5vh;
+    border-radius: 50%;
+    position: fixed;
+    top: 72%;
+    right: 40%;
+    background-image: url('/images/whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    font-weight: bolder;
+    box-shadow: 0 1px 16px rgba(0, 0, 0, 0.24);
+    animation: wst 0.2s ease-in;
+}
+
+@keyframes wst {
+    1% {
+        top: 72%;
+        right: 5%;
+    }
+
+    90% {
+        top: 72%;
+        right: 41%;
+    }
+
+    100% {}
+}
+
+#gsticky {
+    width: 7.5vh;
+    height: 7.5vh;
+    border-radius: 50%;
+    position: fixed;
+    top: 80%;
+    right: 25%;
+    background-image: url('/images/call.png ');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    font-weight: bolder;
+    box-shadow: 0 1px 16px rgba(0, 0, 0, 0.24);
+    animation: gst 0.2s ease-in;
+}
+
+@keyframes gst {
+    1% {
+        top: 72%;
+        right: 5%;
+    }
+
+    90% {
+        top: 81%;
+        right: 25.5%;
+    }
+
+    100% {}
+}
+
+
+
+/* footer */
+footer {
+    background: rgb(63, 60, 60);
+    margin-top: 10%;
+    padding: 2%;
+}
+
+.f-head1 {
+    color: black;
+    font-weight: bolder;
+    font-family: Helvetica;
+    font-size: 1.2rem;
+    padding: 1%;
+    display: block;
+}
+
+.f-container1 {
+    width: 55%;
+    background: rgba(80, 80, 80, 0.815);
+    border-radius: 0.5rem;
+    height: 5cm;
+    display: inline-block;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    padding: 1%;
+    margin-bottom: 5%;
+}
+
+.f-container2 {
+    width: 40%;
+    background: rgba(80, 80, 80, 0.815);
+    border-radius: 0.5rem;
+    height: 5cm;
+    margin-left: 3%;
+    display: inline-block;
+}
+
+/* copyright */
+.copyrigt {
+    display: block;
+    text-align: center;
+    padding-top: 2%;
+    font-weight: bolder;
+    font-family: helvetica;
+    font-size: 1rem;
+    color: rgb(145, 141, 141);
+    margin-top: 15%;
+}
+
+.mail {
+    text-decoration: none;
+    color: black;
+    font-family: verdana;
+
+}
+
+.location2 {
+    text-decoration: none;
+    color: black;
+    font-family: verdana;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 0%;
+}
+
+.contact {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 60%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* facebook username text */
+.facebook {
+    font-weight: bolder;
+    display: inline;
+    padding-left: 1%;
+    padding-top: 0%;
+}
+
+/* facebook icon */
+.f-image {
+    width: 10%;
+    margin-left: 3%;
+    margin-top: 4%;
+    border-radius: 0.7rem;
+    display: inline;
+}
+
