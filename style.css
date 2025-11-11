@@ -130,27 +130,7 @@ background-position: center;
     }
 }
 .ads::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: -75%;
-    width: 20%;
-    height: 100%;
-    background: linear-gradient(120deg,transparent,rgb(255, 255, 255),transparent);
-    animation: shine 3s infinite;
-    z-index: 1;
-}
-@keyframes shine {
-    0% {
-    right: -75%;
-    }
-    50% {
-    right: 125%;
-    }
-    100% {
-       right: 125%;
-    }
-}
+
 
 /* caterer model */
 .img-model {
@@ -736,6 +716,7 @@ a {
     border-radius: 0.7rem;
     display: inline;
 }
+
 
 
 
