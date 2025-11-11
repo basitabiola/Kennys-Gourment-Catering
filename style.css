@@ -521,7 +521,7 @@ z-index: 5;
     height: 7.5vh;
     border-radius: 50%;
     position: fixed;
-    top: 72%;
+    top: 65%;
     right: 5%;
     display: block;
     background: none;
@@ -539,7 +539,7 @@ z-index: 5;
     background-image: url('/images/facebook.jpg');
     background-size: cover;
     background-position: center;
-    top: 62%;
+    top: 55%;
     right: 25%;
     border: none;
     font-weight: bolder;
@@ -548,11 +548,11 @@ z-index: 5;
 }
 @keyframes fst {  
     1% {  
-top: 75%;
+top: 68%;
 right: 5%;
     }
   90% {
-    top: 61%;
+    top: 54%;
     right: 25.5%;
  }
     100% {
@@ -565,7 +565,7 @@ right: 5%;
     height: 7.5vh;
     border-radius: 50%;
     position: fixed;  
-    top: 72%;
+    top: 65%;
     right: 40%; 
     background-image: url('/images/whatsapp.png');
     background-size: cover;
@@ -578,11 +578,11 @@ right: 5%;
      
     @keyframes wst {
         1% {
-            top: 72%;
+            top: 65%;
             right: 5%; 
         }
           90% {
-              top: 72%;
+              top: 65%;
               right: 41%;
           }
         100% {
@@ -594,7 +594,7 @@ right: 5%;
     height: 7.5vh;
     border-radius: 50%;
     position: fixed;
-    top: 80%;
+    top: 73%;
     right: 25%;
     background-image: url('/images/call.png ');
     background-size: contain;
@@ -608,11 +608,11 @@ right: 5%;
     
     @keyframes gst {
         1% {
-            top: 72%;
+            top: 65%;
             right: 5%;
         }
           90% {
-              top: 81%;
+              top: 73%;
               right: 25.5%;
           }
         100% {}
@@ -715,6 +715,7 @@ a {
     border-radius: 0.7rem;
     display: inline;
 }
+
 
 
 
