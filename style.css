@@ -432,7 +432,7 @@ box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.329);
     border-radius: 0.5rem;
     margin-left: 3%;
     margin-top: 10%;
-    background: whitesmoke;
+    background: rgba(206, 205, 205, 0.692);
 padding: 1.5%;
 display: flex;
 font-family: Verdana;
@@ -464,7 +464,7 @@ background-size: cover;
 }
 /* testimony comment text */
 .testy-text {
-background: rgba(245, 245, 245, 0.644);
+background: rgba(206, 205, 205, 0.692);
 width: 85%;
 height: 1.4cm;
 margin-bottom: 1%;
@@ -715,6 +715,7 @@ a {
     border-radius: 0.7rem;
     display: inline;
 }
+
 
 
 
