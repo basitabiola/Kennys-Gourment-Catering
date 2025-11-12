@@ -91,6 +91,7 @@ body {
     background-repeat: no-repeat;
     background-size: 105%;
     margin: 0%;
+    margin-top: 0%;
     animation: zoom 10s linear infinite ;
 }
 @keyframes zoom {
@@ -715,6 +716,7 @@ a {
     border-radius: 0.7rem;
     display: inline;
 }
+
 
 
 
